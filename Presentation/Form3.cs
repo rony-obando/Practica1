@@ -30,17 +30,22 @@ namespace Presentation
         {
             if (Valores != null)
             {
-                double[] si = Valores.ToArray();
-                Close();
+                //double[] si = Valores.ToArray();
+                //Close();
 
             }
         }
         
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form = new Form1(1,0) ;
-            
-            Close();
+            /*Form1 form = new Form1(1,0) ;
+            form.Show();*/
+            SingletonList singletonList = SingletonList.instance1;
+
+            foreach (double dou in singletonList.vs)
+            {
+                MessageBox.Show(dou.ToString());
+            }
         }
     }
 }

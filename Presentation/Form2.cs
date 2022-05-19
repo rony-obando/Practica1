@@ -25,7 +25,7 @@ namespace Presentation
             if (comboBox1.SelectedIndex == 0)
             {
                 Form3 form = new Form3(data);
-                form.ShowDialog();
+                form.Show();
                 Close();
             }
         }
@@ -33,7 +33,7 @@ namespace Presentation
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Form3 form = new Form3(data);
-            form.ShowDialog();
+            form.Show();
             Close();
         }
     }

@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "eU7e+v88mjQdYMC/0w0VmhfXpJqmFKYfDrfq+rEzFJSexHwZ0qqgoLMzYf49JEOqRsXcLRMF3RlokdOG/80ctQ==",
+  "dgSpecHash": "X0GyrHowvf29XFhUPcTjRxJbExnZhb4UK891Q2sJlHn1NxTXm24parqmde+I380iMz+gvGnM7OI/DAOV4/LwBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\sda\\Practica\\Presentation\\Presentation.csproj",
+  "projectFilePath": "C:\\Users\\JADPA06\\Desktop\\sdf\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\carlo\\.nuget\\packages\\documentformat.openxml\\2.11.3\\documentformat.openxml.2.11.3.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\spreadsheetlight\\3.5.0\\spreadsheetlight.3.5.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\JADPA06\\.nuget\\packages\\documentformat.openxml\\2.11.3\\documentformat.openxml.2.11.3.nupkg.sha512",
+    "C:\\Users\\JADPA06\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\JADPA06\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\JADPA06\\.nuget\\packages\\spreadsheetlight\\3.5.0\\spreadsheetlight.3.5.0.nupkg.sha512",
+    "C:\\Users\\JADPA06\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\JADPA06\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

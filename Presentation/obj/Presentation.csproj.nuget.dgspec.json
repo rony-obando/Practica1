@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\sda\\Practica\\Presentation\\Presentation.csproj": {}
+    "C:\\Users\\JADPA06\\Desktop\\sdf\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\sda\\Practica\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\JADPA06\\Desktop\\sdf\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\sda\\Practica\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\JADPA06\\Desktop\\sdf\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\sda\\Practica\\Presentation\\Presentation.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\sda\\Practica\\Presentation\\obj\\",
+        "projectPath": "C:\\Users\\JADPA06\\Desktop\\sdf\\Presentation\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\JADPA06\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JADPA06\\Desktop\\sdf\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JADPA06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"
@@ -61,12 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.13, 5.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -75,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

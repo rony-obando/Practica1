@@ -57,11 +57,12 @@ namespace Presentation
             this.Ce,
             this.Cf,
             this.Cg});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 147);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 108);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(797, 384);
+            this.dataGridView1.Size = new System.Drawing.Size(697, 288);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView1_KeyDown);
@@ -118,9 +119,10 @@ namespace Presentation
             // 
             // btnFunction
             // 
-            this.btnFunction.Location = new System.Drawing.Point(3, 3);
+            this.btnFunction.Location = new System.Drawing.Point(3, 2);
+            this.btnFunction.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFunction.Name = "btnFunction";
-            this.btnFunction.Size = new System.Drawing.Size(94, 29);
+            this.btnFunction.Size = new System.Drawing.Size(82, 22);
             this.btnFunction.TabIndex = 1;
             this.btnFunction.Text = "Fx";
             this.btnFunction.UseVisualStyleBackColor = true;
@@ -129,33 +131,36 @@ namespace Presentation
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 93);
+            this.label1.Location = new System.Drawing.Point(10, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 20);
+            this.label1.Size = new System.Drawing.Size(54, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "Formula:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(99, 93);
+            this.textBox1.Location = new System.Drawing.Point(87, 70);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(482, 27);
+            this.textBox1.Size = new System.Drawing.Size(422, 23);
             this.textBox1.TabIndex = 4;
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.btnFunction);
             this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(13, 13);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(11, 10);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(775, 74);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(678, 56);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(103, 3);
+            this.button1.Location = new System.Drawing.Point(91, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(207, 29);
+            this.button1.Size = new System.Drawing.Size(181, 22);
             this.button1.TabIndex = 2;
             this.button1.Text = "Exportal a Excel";
             this.button1.UseVisualStyleBackColor = true;
@@ -163,13 +168,14 @@ namespace Presentation
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 543);
+            this.ClientSize = new System.Drawing.Size(715, 407);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

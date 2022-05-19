@@ -42,6 +42,10 @@ namespace Presentation
             foreach (DataGridViewRow fila in data.Rows)
             {
                 indicefila++;
+                if (indicefila == 1)
+                {
+                    //indicefila++;
+                }
                 indice = 0;
                 foreach (DataGridViewColumn columna in data.Columns)
                 {
@@ -53,10 +57,6 @@ namespace Presentation
             application.Visible = true;
 
 
-        }
-        private void botonExportar()
-        {
-            ExportarDatos(dataGridView1);
         }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -164,7 +164,6 @@ namespace Presentation
                             i < selectedCellCount; i++)
                         {
 
-
                             filas.Add(dataGridView1.SelectedCells[i].RowIndex);
 
 
@@ -180,11 +179,14 @@ namespace Presentation
                                 si.Add(dataGridView1.Rows[i].Cells[j].Value.ToString());
                             }
                         }
+                        
                         List<double> no = new List<double>();
                         foreach (string b in si)
                         {
                             no.Add(double.Parse(b));
                         }
+                        SingletonList singleton = SingletonList.instance1;
+                        singleton.vs = no;
                         double[] noo = no.ToArray();
                         dataGridView1.Rows[fila].Cells[columna].Value =Financial.IRR(ref noo);
                         /* sb.Append("Total: " + selectedCellCount.ToString());
